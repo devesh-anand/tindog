@@ -35,6 +35,10 @@ p {
     text-align: left;
 }
 
+.main-sect button {
+    margin-right: 12px;
+}
+
 .main-img {
     width: 60%; 
     transform: rotate(25deg) scale(1);
@@ -182,6 +186,10 @@ p {
         transform: rotate(0);
     }
 
+    #pricing {
+        padding: 15%;
+    }
+
     h1 {
         font-size: 3rem;
     }
@@ -192,5 +200,11 @@ p {
 
     #cta h3 {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .main-sect button {
+        margin: 12px 8px;
     }
 }
